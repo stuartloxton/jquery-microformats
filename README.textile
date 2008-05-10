@@ -1,0 +1,10 @@
+h3. jQuery Microformats
+
+jQuery Microformats is an in development jQuery plugin for parsing local and remote documents for microformats. 
+
+h5. Planned Supported MicroFormats
+* hCard
+* hCalender
+* hEvent
+* hReview (not an official microformat but  a draft I support)
+* XFN
