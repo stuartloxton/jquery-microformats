@@ -8,10 +8,8 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
-	$.microformats.parseLocal({ microformats: ['hCard', 'hCalendar', 'bleh']});
-	console.log($.microformats.hCards);
-	console.log($.microformats.hCards[0].tel[0].type);
-	console.log($.microformats.hCards[0].geo.longitude);
+	$.microformats.parseLocal();
+	console.log($.microformats.hCards[0].org);
 });
 
 </script>
