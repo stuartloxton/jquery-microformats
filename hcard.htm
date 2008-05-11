@@ -11,6 +11,7 @@ $(document).ready(function() {
 	$.microformats.parseLocal({ microformats: ['hCard', 'hCalendar', 'bleh']});
 	console.log($.microformats.hCards);
 	console.log($.microformats.hCards[0].tel[0].type);
+	console.log($.microformats.hCards[0].geo.longitude);
 });
 
 </script>
@@ -26,6 +27,10 @@ $(document).ready(function() {
     <abbr class="region" title="California">CA</abbr>  
     <span class="postal-code">94301</span>
     <div class="country-name">USA</div>
+  </div>
+  <div class="geo">
+  	<span class="latitude">0.3.4.8</span> |
+    <span class="longitude">1.2.3.4</span>
   </div>
   <div class="tel">
    <span class="type">Work</span> +1-650-289-4040
