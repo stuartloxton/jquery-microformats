@@ -1,5 +1,7 @@
 h3. jQuery Microformats
 
+*At the moment and for the next few days (maybe weeks) only parseLocal will be available as I am going to write all the parsers then apply the remote system*
+
 jQuery Microformats is an in development jQuery plugin for parsing local and remote documents for "microformats":http://microformats.org/wiki/Main_Page. 
 
 h3. Example Code
